@@ -1,0 +1,64 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.GameSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+}
+.GameSectiondiv {
+  width: 100%;
+  background-color: aqua;
+  position: relative;
+}
+.GameSectiondivright {
+  width: 100%;
+  background-color: rgb(111, 0, 255);
+  position: relative;
+}
+.GameSection div img {
+  width: 15%;
+  height: auto;
+}
+
+.LeftKnightDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+}
+
+.RighttKnightDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  position: relative;
+}
+
+.RighttKnightDiv img {
+  position: absolute;
+  right: 0%;
+}
+.LefttKnightDiv img {
+  position: absolute;
+}
+
+.ButtonContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.ButtonContainer button {
+  width: 100px;
+  border: 1;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 10px;
+  color: aliceblue;
+  font-weight: 600;
+  font-family: "sans-serif";
+}
