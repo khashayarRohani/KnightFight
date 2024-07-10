@@ -77,3 +77,12 @@ RightKnightbtn.addEventListener("click", function () {
     PHealth.textContent = "Health :" + resHp;
   }
 });
+
+const Movelftbtn = document.getElementById("mvLeftbtn");
+
+Movelftbtn.addEventListener("click", function () {
+  let currentLeft = parseFloat(knight1Image.style.left) || 0;
+
+  // Move the image 3% to the left
+  knight1Image.style.left = currentLeft - 3 + "%";
+});
